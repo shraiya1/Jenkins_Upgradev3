@@ -10,7 +10,7 @@ pipeline {
                     bat "echo Now Archiving the Artifacts...."
                     archiveArtifacts artifacts: '**/*.war'
                 }
-                publishers {
+                always {
                     allure(['allure-results'])
                 }
             }
