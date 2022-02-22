@@ -12,7 +12,7 @@ pipeline {
                 }
                 always {
                     script {
-                        allure jsonReportDirectory: 'allure-results'
+                        allure jsonReportDirectory: 'src/allure-results'
                     }
                 }
             }
