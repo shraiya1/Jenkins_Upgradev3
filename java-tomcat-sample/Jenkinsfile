@@ -13,6 +13,7 @@ pipeline {
                 always {
                     script {
                         allure jsonReportDirectory: 'src/allure-results'
+                        allure results: results + [path: "src/allure-results"]
                     }
                 }
             }
