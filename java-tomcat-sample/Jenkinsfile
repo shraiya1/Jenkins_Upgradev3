@@ -10,6 +10,9 @@ pipeline {
                     bat "echo Now Archiving the Artifacts...."
                     archiveArtifacts artifacts: '**/*.war'
                 }
+                publishers {
+                    allure(['allure-results'])
+                }
             }
         }
         stage('Deploy in Staging Environment'){
