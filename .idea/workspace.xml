@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b956643d-e1fa-454f-a704-0ff3977168c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/java-tomcat-sample/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/java-tomcat-sample/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
       <workItem from="1643822203206" duration="1940000" />
       <workItem from="1643824958357" duration="1105000" />
       <workItem from="1643869015011" duration="759000" />
-      <workItem from="1645543627462" duration="2852000" />
+      <workItem from="1645543627462" duration="3616000" />
     </task>
     <servers />
   </component>
