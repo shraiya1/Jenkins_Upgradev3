@@ -11,7 +11,9 @@ pipeline {
                     archiveArtifacts artifacts: '**/*.war'
                 }
                 always {
-                    allure(['allure-results'])
+                    script {
+                        allure jsonReportDirectory: 'allure-results'
+                    }
                 }
             }
         }
